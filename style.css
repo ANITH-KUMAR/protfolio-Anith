@@ -441,34 +441,27 @@
   color: white;
   
  }
-#sa1:hover{
-  font-size: clamp(40px,2vw,200px);
-}
 
-#sa2:hover{
-  font-size: clamp(40px,2vw,200px);
-}
-#sa3:hover{
-  font-size: clamp(40px,2vw,200px);
-}
-#sa4:hover{
-  font-size: clamp(40px,2vw,200px);
-}
+#sa4{
+  margin-bottom:5% ;
+} 
 
 #contact{
-    padding: 1%;
+  
+    margin-top: 5%;
 }
 
 #foc{
    display: flex;
    justify-content: space-evenly;
-   gap: 10px;
+   gap: 5px;
    flex-wrap: wrap;
+  
 }
 #fo{
   text-decoration: none;
   color: wheat;
-  font-size: clamp(10px,2vw,200px);
+  font-size: clamp(12px,2vw,200px);
 }
 
 
