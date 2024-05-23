@@ -1,0 +1,474 @@
+
+   *{
+     padding: 0;
+     border: none;
+     margin: 0;
+    background-color: #272727;
+    /* #272727; */
+    color: white;
+  } 
+  nav{
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    
+  }
+  .na{
+    text-decoration: none;
+    color: rgb(36, 33, 33);
+    background-color: bisque;
+    height: 100px;
+    text-align: center;
+    font-size: clamp(25px,1vh,100px);
+    padding-top: 30px;
+    /* font-size: 1rem; */
+    /* text-align: left; */
+
+  }
+  a:hover{
+    color: black;
+  }
+  #n{
+    display: flex;
+    background-color: bisque;
+    flex-wrap: wrap;
+    gap: 5px;
+  
+    /* align-items: center; */
+    justify-content:space-around;
+   
+  }
+ .dropdown-menu{
+    text-align: center;
+  }
+  li{
+    background-color: white;
+    text-align: center;
+  }
+  #btn{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+     padding: 10px;
+     width: 100%;
+      background-color: wheat;
+  }
+  #hed1{
+    font-size: large;
+    font-weight: 900;
+    background-color: wheat;
+    color:hsla(240, 5%, 9%, 0.729);
+     text-shadow: 1px 1px 2px;
+
+  }
+#hed1:hover{
+  transform: scale(1.1);
+}
+ #hed2{
+    background-color: wheat;
+    font-size: clamp(10px, 2vh, 300px);
+    font-weight: 900;
+    color:hsla(240, 5%, 9%, 0.729);
+    border-radius: 20%;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+ #hed2:hover{
+  background-color:rgb(152, 142, 142);
+
+ }
+  
+  @media screen and (min-width:916px)  {
+       #men{
+        display: none;
+        
+       }
+  }
+  @media screen and (max-width:916px)  {
+    #n{
+     display: none;
+     
+    }
+}
+
+
+#str{
+  font-size: clamp(30px, 2vw, 300px);
+  margin-top: 20px;
+  position: relative;
+  animation: mov 5s infinite alternate;
+   width: fit-content;
+          font-weight: 900;
+  }
+@keyframes mov {
+       from
+       {
+        left: 0%;
+           
+       }
+       to
+       {
+        left: 100%;
+        transform: translateX(-100%);
+        
+       
+       }
+
+  
+}
+@media screen and (max-width:500px) {
+  #str{
+    /* animation: none; */
+    animation: mov 1s infinite alternate;
+
+  }
+}
+#matter{
+  font-size: clamp(15px, 2vw, 200px);
+  padding-left: 20px;
+  /* background-color: black; */
+}
+#name{
+  text-shadow: 1px 1px 2px;
+
+}
+
+
+#m1{
+ 
+  max-width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+#bio{
+  width: 100%;
+  /* position: relative; */
+  /* background-color: red; */
+  /* display: flex;
+  align-content: center;
+  flex-wrap: wrap; */
+}
+#img1{
+   max-width: 25%;
+   padding-right: 5%;
+   padding-top: 5%;
+
+}
+#atr{
+  border-radius:45% 50% 60% 70%;
+  border: 5px solid white;
+  max-width: 100%;
+  animation-name: imgmo;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;
+}
+
+@keyframes imgmo {
+      0%{ border-radius:35% 40% 45% 50%;}
+      25%{ border-radius:40% 45% 50% 35%;}
+      50%{border-radius:45% 50% 35% 40%;}
+      100%{border-radius:50% 35% 40% 45%;}
+  
+}
+
+#About{
+
+  font-size: clamp(15px, 2vw, 200px);
+  padding: 20px;
+  padding-right: 20%;
+  /* background-color:  */
+
+
+}
+#ed1{
+  font-size: clamp(30px, 2vw, 200px);
+  padding: 20px;
+  font-weight: 900;
+  color:#FF652F;
+  text-shadow: 2px 2px 3px;
+}
+
+#Education{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  font-size: clamp(30px, 1vw, 100px);
+  
+}
+.card-title{
+  font-size: clamp(20px, 1vw, 100px);
+}
+.card-text{
+  font-size: clamp(25px, 1vw, 40px);
+  /* font-size: clamp(10px, 2vw, 100px); */
+}
+#ed2{
+  font-size: clamp(30px, 2vw, 200px);
+  padding: 20px;
+  font-weight: 900;
+  color:#14A76C;
+  text-shadow: 2px 2px 3px;
+}
+#skills
+{
+  display: flex;
+  flex-wrap: wrap;
+   align-items: center;
+  align-content:flex-start;
+  justify-content: center;
+  gap: 5px;
+  width: 80%;
+ 
+  /* font-size: clamp(100px,5vw,400px); */
+  font-size: clamp(100px, 2vw, 400px);
+ animation: zm 3s ease-in-out infinite;
+ 
+}
+@keyframes zm {
+  0%{
+    justify-content:center;
+  }
+  100%{
+    justify-content:space-around;
+     
+  }
+
+}
+#loef{
+  border:3px solid #42d1d6;
+  border-radius: 10%;
+  animation-fill-mode: backwards;
+  animation: loeff 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+@keyframes loeff {
+  0%{
+    border:3px solid #42d1d6;
+  }
+  100%{
+    border:3px solid #ae057e;
+  
+  }
+ 
+}
+
+
+
+
+  i:hover{
+    transform: scale(1.2);
+  }
+  
+
+
+#img2
+{
+  max-width: 20%;
+  min-width: 30px;
+}
+#skills1{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        /* height:300px; */
+        align-items: center;
+        /* background-color: red; */
+    
+    }
+
+
+#p1{
+  font-size: clamp(20px, 2vw, 200px);
+  max-width: 30%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+
+#ed3{
+  font-size: clamp(30px, 2vw, 200px);
+  padding: 20px;
+  font-weight: 900;
+  color:#d7a320;
+  text-shadow: 2px 2px 3px;
+  
+}
+
+.EIS1{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  max-height: fit-content;
+
+}
+
+#p1b{
+  max-width:1000px ;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 10%;
+  border: 3px solid yellow;
+  animation: ca1 4s infinite ease-in-out;
+
+}
+.EIS2{
+  display: flex;
+  width: 100%;
+  max-height: fit-content;
+}
+#p2b{
+  margin-top: 2%;
+  max-width:1000px ;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10%;
+  border: 3px solid yellow;
+  animation: ca1 4s infinite ease-in-out;
+
+}
+@keyframes ca1 {
+  0%{border: 4px solid yellow;}
+  25%{border: 4px solid rgb(255, 0, 251);}
+  50%{border: 4px solid rgb(0, 140, 255);}
+  100%{border: 4px solid rgb(255, 115, 0);}
+  
+}
+#cob1{
+  width: 100%;
+  background-color: white;
+  border-radius:20px ;
+  border-top: 3px dashed rgb(51, 153, 102);
+  border-right: 3px dashed rgb(28, 180, 200);
+  border-bottom: 3px dashed rgb(230, 226, 127);
+  border-left: 3px dashed rgb(224, 98, 194);
+
+
+  animation: btn1 1s infinite ease-in-out;
+}
+@keyframes btn1 {
+  0%{
+    border-top: 5px dashed rgb(51, 153, 102);
+    border-right: 5px dashed rgb(28, 180, 200);
+    border-bottom: 5px dashed rgb(230, 226, 127);
+    border-left: 5px dashed rgb(224, 98, 194);
+  }
+  25%{border-right: 5px dashed rgb(51, 153, 102);
+    border-bottom: 5px dashed rgb(28, 180, 200);
+    border-left: 5px dashed rgb(230, 226, 127);
+    border-top: 5px dashed rgb(224, 98, 194);
+  }
+  50%{border-bottom: 5px dashed rgb(51, 153, 102);
+    border-left: 5px dashed rgb(28, 180, 200);
+    border-top: 5px dashed rgb(230, 226, 127);
+    border-right: 5px dashed rgb(224, 98, 194);
+  }
+  100%{border-left: 5px dashed rgb(51, 153, 102);
+    border-top: 5px dashed rgb(28, 180, 200);
+    border-right: 5px dashed rgb(230, 226, 127);
+    border-bottom: 5px dashed rgb(224, 98, 194);
+  }
+  
+}
+
+#certf{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  
+  flex-wrap: wrap;
+}
+.ceri{
+  /* border: 5px solid rgb(205, 80, 80); */
+  /* border-radius: 20%; */
+  margin: 5%;
+  text-align: center;
+  font-size: clamp(30px, 2vw, 200px);
+  max-width: 100%;
+}
+
+.ceri:hover{
+  transform: scale(1.2);
+}
+
+#viewh1,#viewh2,#viewh3{
+  display: inline-block;
+  color: rgb(87, 191, 87);
+   text-decoration: none;
+    border: 1px solid  rgb(87, 191, 87);
+    font-size: clamp(20px, 2vw, 200px);
+    /* background-color: rgb(87, 191, 87);; */
+     border-radius: 20%; 
+  padding: 2px;
+  width: 50%;
+
+}
+#viewh1:hover{
+  background-color: rgb(87, 191, 87);
+  color: black;
+}
+#viewh2{
+ color: #dcb553;
+ border: 1px solid #dcb553;
+
+}
+#viewh2:hover{
+  background-color: #dcb553;
+  color: black;
+}
+
+#viewh3{
+  color: #e35b20;
+  border: 1px solid #e35b20;
+ 
+ }
+ #viewh3:hover{
+   background-color: #e35b20;
+   color: black;
+ }
+ #sa1,#sa2,#sa3,#sa4{
+  display: block;
+  text-align: center;
+  font-size: clamp(30px,2vw,200px);
+  font-weight: 900;
+  margin-top: 1%;
+  text-decoration: none;
+  color: white;
+  
+ }
+#sa1:hover{
+  font-size: clamp(40px,2vw,200px);
+}
+
+#sa2:hover{
+  font-size: clamp(40px,2vw,200px);
+}
+#sa3:hover{
+  font-size: clamp(40px,2vw,200px);
+}
+#sa4:hover{
+  font-size: clamp(40px,2vw,200px);
+}
+
+#contact{
+    padding: 1%;
+}
+
+#foc{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+#fo{
+  text-decoration: none;
+  color: wheat;
+  font-size: clamp(10px,2vw,200px);
+}
+
+
