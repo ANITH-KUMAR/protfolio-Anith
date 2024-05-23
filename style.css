@@ -96,6 +96,7 @@
   font-size: clamp(30px, 2vw, 300px);
   margin-top: 20px;
   position: relative;
+  color:rgb(169, 159, 169);
   animation: mov 5s infinite alternate;
    width: fit-content;
           font-weight: 900;
@@ -152,14 +153,14 @@
   flex-wrap: wrap; */
 }
 #img1{
-   max-width: 40%;
+   max-width: 30%;
    padding-right: 5%;
    padding-top: 5%;
 
 }
 #atr{
-  border-radius:45% 50% 60% 70%;
-  border: 5px solid white;
+/*   border-radius:45% 50% 60% 70%; */
+  border: 3px solid white;
   max-width: 100%;
   animation-name: imgmo;
   animation-duration: 4s;
@@ -168,11 +169,15 @@
 }
 
 @keyframes imgmo {
-      0%{ border-radius:35% 40% 45% 50%;}
+/*       0%{ border-radius:35% 40% 45% 50%;}
       25%{ border-radius:40% 45% 50% 35%;}
       50%{border-radius:45% 50% 35% 40%;}
       100%{border-radius:50% 35% 40% 45%;}
-  
+   */
+  0%{ border-radius:6%;}    
+      25%{ border-radius:10%;}  
+      50%{ border-radius:15%;}
+      100%{ border-radius:0%;}
 }
 
 #About{
