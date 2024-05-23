@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav id="n">
+         <a class="na" href="#m1">ABOUT</a>
+
+        <a class="na" href="#ed1">QUALIFICATIONS</a>
+         <a class="na" href="#ed2">SKILLS</a>
+         <a  class="na" href="#ed3">PROJECTS & PUBLICATIONS</a>
+         <a  class="na" href="#cer">CERTIFICATIONS</a>
+       <a class="na" href="#social">SOCIAL ACCOUNTS</a>
+        <a class="na" href="#contact">CONTACT</a>
+    </nav>
+    <div id="men">
+      <button  id="btn" data-bs-toggle="dropdown"  >
+       <i id="hed1">ANITH KUMAR CHOWDARY</i>
+    <span id="hed2" class="material-symbols-outlined">menu</span>
+      </button>
+        <ul class="dropdown-menu w-100 ">
+          <li> <a class="dropdown-item" href="#m1">ABOUT</a></li>
+          <li><a class="dropdown-item" href="#ed1">QUALIFICATIONS</a></li>
+          <li><a class="dropdown-item" href="#ed2">SKILLS</a></li>
+          <li><a  class="dropdown-item" href="#ed3">PROJECTS & PUBLICATIONS</a></li>
+          <li><a  class="dropdown-item" href="#cer">CERTIFICATIONS</a></li>
+          <li><a class="dropdown-item" href="#social">SOCIAL ACCOUNTS</a</li>
+          <li><a class="dropdown-item" href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+  </header>
+<main>
+    <div id="m1">
+         <div id="bio">
+                <h1 id="str">WELCOME</h1>
+                 <p id="matter">
+                  Hey everyone,
+                  <br>I'm  <strong id="name" >ANITH KUMAR CHOWDARY</strong>a computer science student at Bvrit.
+
+                  </p>
+          </div>
+          <div id="img1"> 
+              <img id="atr" src="images/mypic2.jpg" alt="">
+          </div>
+    </div>    
+    
+    <section id="About">
+      I'm  Currently pursuing my Bachelor's degree, I have developed a strong foundation in programming languages such as <strong> Java, Python,c,JavaScript etc..</strong> . My academic journey has been enriched by hands-on experience through various projects, including developing a responsive website for a college as well as personal projects and solving new problems as many as possible from platforms like leetcode. These projects have honed my skills in web development and good problem solver, fueling my enthusiasm for these fields. I am particularly interested in exploring the intersections of technology and user experience, aiming to become a <b>full-stack developer</b> who crafts intuitive and impactful digital solutions. With a commitment to continuous learning and a collaborative spirit, I am excited to contribute to innovative projects and make a meaningful impact in the tech industry.
+    </section>
+   
+    <h1 id="ed1">
+      EDUCATION
+    </h1>
+    <section id="Education">
+      <div class="card" style="width: 40vh;box-shadow: 0px 0px 10px rgb(226, 163, 17); ">
+        <img src="images/btech.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bachelor of Technology</h5>
+          <p class="card-text">2-2 semester of my bachelor degree in computer science and Engineering.
+            <hr>
+            Year:2022-2026
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 40vh;box-shadow: 0px 0px 10px rgb(22, 116, 204);">
+        <img src="images/inter.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Higher school</h5>
+          <p class="card-text">I completed my high school at narayana educational institutions with 98%.
+            <hr>
+              Year:
+                2022
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 40vh;box-shadow: 0px 0px 10px rgb(156, 76, 33);">
+        <img src="images/tenth.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Schooling</h5>
+          <p class="card-text">I completed my schooling at KTS with 10gpa.
+            <hr>
+            Year:2020
+          </p>
+        </div>
+      </div>
+    </section>
+    <h1 id="ed2">TECH STACK</h1>
+  
+    <section id="skills1">
+        <div id="skills">
+          
+          <i id="loef" class="fa-solid fa-c"></i>
+          <i  id="loef" class="fa-brands fa-python"></i>
+          <i id="loef" class="fa-brands fa-java"></i>
+          <i id="loef" class="fa-brands fa-html5"></i>
+          <i id="loef" class="fa-brands fa-css3"></i>
+          <i id="loef" class="fa-brands fa-bootstrap"></i>
+          <i id="loef" style="font-size: clamp(100px,5vw,500px);" class="material-symbols-outlined">
+            javascript
+          </i class="fa-brands fa-react"></i>
+          <i id="loef" class="fa-brands fa-node"></i>
+          <i id="loef" class="fa-solid fa-database"></i>
+            
+        </div>
+    </section>
+    <h1 id="ed3">PROJECTS</h1>
+    <section id="projects" >
+      
+      <div class="EIS1">
+        <div class="card" id="p1b">
+          <div class="card-body">
+            <h5 class="card-title">EXAM INVIGILATION SCHEDULER</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Time saver</h6>
+            <p class="card-text">This is the project based on preperation of exam schedule and sending emails after schedule prepared which reduces time,paperwork and manual errors</p>
+            <button href="#" id="cob1" class="btn">CODE</button>
+          </div>
+        </div>
+      </div> 
+      <div class="EIS2">
+        <div class="card" id="p2b">
+          <div class="card-body">
+            <h5 class="card-title">MALL REPLICATION</h5>
+            <h6 class="card-subtitle mb-2 text-muted">c Language</h6>
+            <p class="card-text">This is the small project which will replicate of mall interface which developed in <b>c language</b></p>
+            <button href="#" id="cob1" class="btn">CODE</button>
+          </div>
+        </div>
+      </div> 
+      <div class="EIS1">
+        <div class="card" id="p1b" style="margin-top:5% ;">
+          <div class="card-body">
+            <h5 class="card-title">GAME ZONE</h5>
+            <h6 class="card-subtitle mb-2 text-muted">python</h6>
+            <p class="card-text">This is small and simple project in <b>c language</b>, where you can come accross 
+              <br>
+              1.rock paper scissor
+              <br>
+              2.find killer GAME
+              <br>
+              3.HMABV <sub>How much you know about bvrit</sub> </p>
+            <button href="#" id="cob1" class="btn">CODE</button>
+          </div>
+        </div>
+      </div>  
+      <!-- #aebbff, #92b2ff, #8ad3ff, and #b6fffd -->
+        <h1 style="padding:20px ;color: #b6fffd;text-shadow: 1px 2px 4px; border-radius: 0px;">PUBLICATION</h1>
+        
+        <div style="display: flex;justify-content: flex-start;margin-left: 10%;">
+        <div class="card" style="width: 35vh ;box-shadow: 1px 1px 10px #73d6c4;">
+          <marquee behavior="" scrollamount="10" direction="" style="font-size: clamp(20px, 2vw, 400px);">2024 International Conference on Circuit Power and Computing Technologies (ICCPCT)</marquee>
+          <img src="images/Screenshot 2024-05-22 121855.png" class="card-img-top" alt="..." >
+          <div class="card-body">
+            <h5 class="card-title" id="pt1">EXAM INVIGILATION SCHEDULER</h5>
+               
+            <p class="card-text">conference:<b>ICCPTC 2024</b></p>
+            <!-- <a href="#" class="btn btn-primary" style="font-size:clamp(20px, 2vh, 30px);">Publication link</a> -->
+                        <!-- <a href="#" class="btn btn-primary" style="font-size:clamp(20px, 2vh, 30px);">Publication link</a> -->
+                        <a href="images/2024135814 (1).pdf" target="_blank" class="btn btn-primary" style="font-size:clamp(20px, 1vw, 30px);;">Publication Link</a>
+
+                   <a href="images/2024135814 (1).pdf" target="_blank" class="btn btn-success" style="font-size:clamp(20px, 1vw, 30px);;">View</a>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+
+      <h1 id="cer" style="padding-top:2%; padding-right: 10%;text-align: end; color: #92b2ff;text-shadow: 2px 2px 4px;">CERTIFICATONS</h1>
+    <section id="certf">
+      <div class="ceri">
+            <h1  style="font-size:clamp(20px, 2vh, 30px);" >FROM :NPTEL</h1>
+            <b>In c language </b>
+            <p>badge:<b>Silver+Elite</b></p>
+            <a href="images/cert1.jpg" target="_blank" id="viewh1" >VIEW</a>
+      </div>
+      <div class="ceri">
+        <h1  style="font-size:clamp(20px, 2vh, 30px);" >FROM :Hacker Ranker</h1>
+        <b>In python </b>
+        <p>badge:<b>basic python</b></p>
+        <a href="images/cert2.jpg" target="_blank" id="viewh2" >VIEW</a>
+
+      </div>
+      <div class="ceri">
+        <h1  style="font-size:clamp(20px, 2vh, 30px);" >FROM :Hacker Ranker</h1>
+        <b>In python </b>
+        <p>badge:<b>python complition</b></p>
+        <a href="images/cert3.jpg" target="_blank" id="viewh3" >VIEW</a>
+
+       </div>
+       
+        
+    </section>
+   
+    <h1 style="padding-left:10% ;color: #b03f69;text-shadow: 1px 2px 4px; border-radius: 0px;">SOCIAL ACCOUNTS</h1>
+    <section id="social">
+        <a id="sa1" href="https://www.linkedin.com/in/anithkumar-vadlamudi-05aa34256/"><i class="fa-brands fa-linkedin"></i> 
+          LINKEDIN
+        </a>
+        <a id="sa2" href="https://github.com/ANITH-KUMAR/protfolio-Anith"><i  class="fa-brands fa-github"></i> GITHUB</a>
+        <a id="sa3" href="https://leetcode.com/u/vadlamudianithkumar/"> <img src="images/LeetCode_logo_rvs.png" alt="" style="max-width:30px;"> LEETCODE</a>
+        <a id="sa4"> <i class="fa-brands fa-instagram"> </i> INSTAGRAM</a>
+
+    </section>
+    
+  </main>
+  <footer id="contact">
+
+     <h1  id="cu" style="text-align: center;font-size: clamp(30px,2vw,200px);">Contact us</h1>
+      <h5 style="text-align: center;font-size: clamp(20px,2vw,200px);">Wattsapp:6305414717</h5>
+      <h2 style="text-align: center;font-size: clamp(15px,2vw,200px);"><b>Email</b>:anithkumarvadlamudi@gmail.com</h2>
+    <div id="foc">
+      <a id="fo" href="#m1">about</a>
+      <a id="fo" href="#ed1">Qualification</a>
+      <a id="fo" href="#ed2">Skills</a>
+      <a id="fo" href="#ed3">Project & Publications</a>
+      <a id="fo" href="#cer">Certificate</a>
+    </div>
+    <br>
+    <h1  style="text-align: center;font-size: clamp(20px,2vw,200px);">©2023 Made with ❤ by ANITH KUMAR</h1>
+    <br>
+  </footer>
+   
+  
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+  
