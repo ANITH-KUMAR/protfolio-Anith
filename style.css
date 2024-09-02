@@ -97,26 +97,11 @@
   margin-top: 20px;
   position: relative;
   color:rgb(169, 159, 169);
-  animation: mov 5s infinite alternate;
+/*   animation: mov 5s infinite alternate; */
+  margin-left: 20px;
    width: fit-content;
           font-weight: 900;
   }
-@keyframes mov {
-       from
-       {
-        left: 0%;
-           
-       }
-       to
-       {
-        left: 100%;
-        transform: translateX(-100%);
-        
-       
-       }
-
-  
-}
 @media screen and (max-width:500px) {
   #str{
     /* animation: none; */
