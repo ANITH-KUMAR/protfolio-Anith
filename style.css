@@ -216,7 +216,7 @@
  
   /* font-size: clamp(100px,5vw,400px); */
   font-size: clamp(100px, 2vw, 400px);
- animation: zm 3s ease-in-out infinite;
+/*  animation: zm 3s ease-in-out infinite; */
  
 }
 @keyframes zm {
@@ -232,12 +232,12 @@
 #loef{
   border:3px solid #42d1d6;
   border-radius: 10%;
-  animation-fill-mode: backwards;
+/*   animation-fill-mode: backwards;
   animation: loeff 2s ease-in-out infinite;
-  animation-direction: alternate;
+  animation-direction: alternate; */
 }
 
-@keyframes loeff {
+/* @keyframes loeff {
   0%{
     border:3px solid #42d1d6;
   }
@@ -246,7 +246,7 @@
   
   }
  
-}
+} */
 
 
 
@@ -339,9 +339,9 @@
   border-left: 3px dashed rgb(224, 98, 194);
 
 
-  animation: btn1 1s infinite ease-in-out;
+/*   animation: btn1 1s infinite ease-in-out; */
 }
-@keyframes btn1 {
+/* @keyframes btn1 {
   0%{
     border-top: 5px dashed rgb(51, 153, 102);
     border-right: 5px dashed rgb(28, 180, 200);
@@ -364,7 +364,7 @@
     border-bottom: 5px dashed rgb(224, 98, 194);
   }
   
-}
+} */
 
 #certf{
   display: flex;
